@@ -5,11 +5,11 @@ public class Argumentos {
         metodo2(40);
     }
 
-    static void metodo1(){
-        System.out.println("metodo1");
+    static void metodo1(String nome){
+        System.out.println("metodo1:" + nome);
     }
 
-    static void metodo2(){
-        System.out.println("metodo2");
+    static void metodo2(int idade){
+        System.out.println("metodo2:" + idade);
     }
 }
